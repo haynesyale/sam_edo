@@ -1,0 +1,66 @@
+/*头部导航栏开始*/
+header{
+    width: 1100px;
+    height: 120px;
+    margin: 0 auto;
+}
+header>.logo{
+    float: left;
+    width: 250px;
+    height: 74px;
+    margin-top: 30px;
+    background: url(../images/logo.png) no-repeat center center;
+}
+header>.nav{
+    height: 120px;
+    overflow: hidden;
+    float: right;
+    padding-right: 20px;
+}
+header>.nav>.tel{
+    padding: 23px 0;
+    text-align: right;
+}
+header>.nav>.tel>img{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+}
+header>.nav>.tel>.title{
+    line-height: 14px;
+    font-size: 12px;
+    color: #5A5D62;
+}
+header>.nav>.tel>.content{
+    font-size: 17px;
+    line-height: 20px;
+    color: #FFA73D;
+}
+header>.nav>ul{
+    float: right;
+    height: 30px;
+}
+header>.nav>ul>li{
+    float: left;
+}
+header>.nav>ul>li>a{
+    font-size: 18px;
+    line-height: 30px;
+    float: left;
+    color: #090909;
+}
+header>.nav>ul>li:hover>a{
+    color: #E69C4B;
+}
+header>.nav>ul>li.cur>a{
+    color: #E69C4B;
+}
+header>.nav>ul>span{
+    float: left;
+    line-height: 30px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #A7A7A7;
+    padding: 0 12px;
+}
+/*头部导航栏结束*/

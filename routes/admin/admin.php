@@ -1,0 +1,52 @@
+<?php
+/**
+ * Created by PhpStorm.
+ * User: hay
+ * Date: 2017/11/22
+ * Time: 9:27
+ */
+Route::group(['prefix'=>'/admin','namespace'=>'Admin'],function(){
+    //后台登陆首页
+    Route::get('/login','LoginController@login');
+    //后台登陆验证
+    Route::post('/login','LoginController@access');
+    //首台首页
+    Route::get('/index','LoginController@index');
+    //退出登陆
+    Route::get('/logout','LoginController@logout');
+    //修改用户密码首页
+    Route::get('/password','LoginController@password');
+    //验证用户密码
+    Route::post('/password','LoginController@changepwd');
+    //修改公司信息
+    Route::get('/aboutus','AboutusController@index');
+    Route::post('/aboutus','AboutusController@saveinfo');
+    //模块
+    Route::resource('/module','ModuleController');
+    //模块搜索
+    Route::post('/module/search','ModuleController@search');
+    //服务分类
+    Route::resource('/category','CateController');
+    //服务搜索
+    Route::post('/category/search','CateController@search');
+    //行业分类
+    Route::resource('/trade','TradeController');
+    //行业搜索
+    Route::post('/trade/search','TradeController@search');
+    //案例
+    Route::resource('/case','CaseController');
+    //案例搜索
+    Route::post('/case/search','CaseController@search');
+    //标签服务
+    Route::resource('/tag','TagController');
+    //标签服务搜索
+    Route::post('/tag/search','TagController@search');
+    //元度动态分类
+    Route::resource('/dynamic','DynamicController');
+    //元度动态分类搜索
+    Route::post('/dynamic/search','DynamicController@search');
+    //文章
+    Route::resource('/article','ArticleController');
+    //文章搜索
+    Route::post('/article/search','ArticleController@search');
+});

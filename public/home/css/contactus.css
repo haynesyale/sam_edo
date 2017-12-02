@@ -1,0 +1,96 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+	font-size: 12px;
+	font-family: Microsoft YaHei;
+}
+
+/*内容开始*/
+#contactus{
+	width: 1100px;
+	margin: 0 auto 50px;
+}
+#contactus>.address{
+	width: 1100px;
+	height: 500px;
+	margin: 40px auto;
+}
+#contactus>.address>.map{
+	width: 800px;
+	height: 500px;
+	float: left;
+	background: yellowgreen;
+}
+#contactus>.address>.description{
+	height: 450px;
+	overflow: hidden;
+	width: 265px;
+	float: right;
+	background: black;
+	padding: 50px 0 0 35px;
+}
+#contactus>.address>.description>.title{
+	font-size: 20px;
+	font-weight: 500;
+	color: white;
+	margin-bottom: 5px;
+}
+#contactus>.address>.description>.content{
+	font-size: 15px;
+	color: white;
+}
+#contactus>.address>.description>.detail{
+	margin: 15px 0;
+}
+#contactus>.address>.description>.detail>span:nth-of-type(1){
+	font-size: 16px;
+	color: white;
+}
+#contactus>.address>.description>.detail>span:nth-of-type(2){
+	font-size: 14px;
+	color: white;
+}
+#contactus>.address>.description>img{
+	width: 120px;
+	height: 120px;
+}
+.img{
+	color: white;
+	font-size: 12px;
+}
+#contactus>.location{
+	height: 350px;
+	width: 1100px;
+	margin: 0 auto;
+}
+#contactus>.location>.left{
+	float: left;
+	width: 285px;
+	height: 350px;
+	background: url(../images/build.jpg) no-repeat center center;
+	margin-right: 20px;
+}
+#contactus>.location>.right{
+	float: left;
+	overflow: hidden;
+}
+#contactus>.location>.right>.detail>p{
+	line-height: 25px;
+}
+#contactus>.location>.right>.detail>.title{
+	font-size: 16px;
+	color: #E1001C;
+}
+#contactus>.location>.right>.detail>.des{
+	padding-left:5px ;
+	font-size: 14px;
+	color: #E1001C;
+}
+#contactus>.location>.right>.detail>.det{
+	padding-left:5px ;
+	font-size: 12px;
+	color: #595959;
+}
+/*内容结束*/

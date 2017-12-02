@@ -1,0 +1,131 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+	font-size: 12px;
+	font-family: Microsoft YaHei;
+}
+
+
+/*公司动态开始*/
+#dynamic{
+	margin: 0 auto;
+	padding: 60px 50px;
+	width: 1000px;
+}
+#dynamic>h1{
+	font-size: 28px;
+	color: #333333;
+}
+#dynamic>span{
+	width: 70px;
+	display: block;
+	height: 10px;
+	border-bottom: 2px #C48449 solid;
+}
+#dynamic>.title{
+	padding: 15px 0;
+	text-align: center;
+}
+#dynamic>.title>a{
+	padding: 3px 20px 3px 25px;
+	font-size: 14px;
+	line-height: 23px;
+	color: #333333;
+}
+#dynamic>.title>a:nth-of-type(1){
+	background: url(../images/huodong_1.png) no-repeat 0 center;
+}
+#dynamic>.title>a:nth-of-type(2){
+	background: url(../images/xinwen_1.png) no-repeat 0 center;
+}
+#dynamic>.title>a:nth-of-type(3){
+	background: url(../images/anli_1.png) no-repeat 0 center;
+}
+
+#dynamic>.title>a.cur:nth-of-type(1){
+	background: url(../images/huodong.png) no-repeat 0 center;
+}
+#dynamic>.title>a.cur:nth-of-type(2){
+	background: url(../images/xinwen.png) no-repeat 0 center;
+}
+#dynamic>.title>a.cur:nth-of-type(3){
+	background: url(../images/anli.png) no-repeat 0 center;
+}
+
+#dynamic>.title>a.cur{
+	color:#C48449 ;
+}
+#dynamic>ul{
+	display: flex;
+	flex-wrap: wrap;
+	margin: 30px auto;
+	justify-content: space-between;
+}
+#dynamic>ul>li{
+	width: 320px;
+	height: 250px;
+	background: #EBEBEB;
+	margin-bottom: 22px;
+}
+#dynamic>ul>li>a{
+	display: block;
+	text-align: center;
+}
+#dynamic>ul>li>a>img{
+	width: 300px;
+	height: 170px;
+}
+#dynamic>ul>li>a>p{
+	font-size: 16px;
+	line-height: 30px;
+	padding-left: 20px;
+	text-align: left;
+	color: #4F4A4E;
+	background: url(../images/youjiantou.png) no-repeat 278px 0;
+}
+#dynamic>ul>li>a>span{
+	display: block;
+	margin-left: 20px;
+	width: 20px;
+	height: 5px;
+	border-bottom: 1px solid #CACACA;
+}
+#dynamic>ul>li>div{
+	height: 20px;
+	padding: 10px 20px;
+	line-height: 20px;
+}
+#dynamic>ul>li>div>img{
+	width: 20px;
+	height: 20px;
+	float: left;
+	margin-right: 5px;
+}
+#dynamic>ul>li>div>span{
+	margin-right: 15px;
+	float: left;
+	line-height: 20px;
+	font-size: 12px;
+	color: #9DA29C;
+}
+#dynamic>.more{
+	display: block;
+	width: 190px;
+	height: 42px;
+	border-radius: 42px;
+	border: #4D4D4D 1px solid;
+	text-align: center;
+	line-height: 42px;
+	font-size: 14px;
+	margin: 0 auto;
+	color: #626262;
+}
+#dynamic>.more:hover{
+	color: white;
+	background: #FFAD3A;
+	border: #FFAD3A 1px solid;
+}
+/*公司动态结束*/
+

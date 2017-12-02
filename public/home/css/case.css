@@ -1,0 +1,98 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+	font-size: 12px;
+	font-family: Microsoft YaHei;
+}
+
+/*案列开始*/
+#case{
+	margin: 55px auto;
+	width: 1100px;
+}
+#case>.title{
+	height: 48px;
+	display: flex;
+	Justify-content:space-around;
+	padding: 0 10px;
+}
+#case>.title>li.cur{
+	background: #FEB744;
+}
+#case>.title>li.cur>a{
+	color: white;
+}
+#case>.title>li{
+	width: 190px;
+	height: 48px;
+	border-radius: 48px;
+	text-align: center;
+	background: #EBEAEF;
+}
+#case>.title>li>a{
+	display: block;
+	width: 190px;
+	height: 48px;
+	text-align: center;
+	line-height: 48px;
+	font-size: 16px;
+	color: #414141;
+	font-weight: 500;
+}
+#case>.content{
+	width: 1100px;
+	margin: 0 auto;
+}
+#case>.content>li{
+	margin: 55px 0;
+	height: 410px;
+	width: 1100px;
+	position: relative;
+	background-size: 100% 100%;
+}
+#case>.content>li>a{
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: block;
+	width: 1100px;
+	height: 410px;
+}
+#case>.content>li>.bottom{
+	position: absolute;
+	bottom: 0;
+	height: 52px;
+	width: 100%;
+	background: rgba(0,0,0,0.3);
+}
+#case>.content>li>.bottom>span{
+	line-height: 52px;
+	padding: 0 25px;
+	color: #D6D6D6;
+	font-size: 16px;
+	font-weight: 500;
+}
+#case>.content>li>.bottom>div{
+	float: right;
+	padding: 16px 30px;
+	overflow: hidden;
+	height: 20px;
+}
+#case>.content>li>.bottom>div>a{
+	height: 20px;
+	width: 32px;
+	float: left;
+}
+#case>.content>li>.bottom>div>span{
+	float: left;
+	height: 20px;
+	line-height: 20px;
+	font-size: 14px;
+	color: #E2D4D3;
+	font-weight: 500;
+	padding: 0 25px 0 10px;
+}
+/*案例结束*/
+

@@ -1,0 +1,133 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+	font-size: 12px;
+	font-family: Microsoft YaHei;
+}
+
+/*加入我们开始*/
+#joinus{
+	width: 1100px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 60px 0 150px 0;
+}
+#joinus>.left{
+	width: 660px;
+	float: left;
+	overflow: hidden;
+}
+#joinus>.left>.title{
+	padding-left: 40px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 20px;
+	background: url(../images/yuangong.png) no-repeat 0 center;
+}
+#joinus>.left>ul{
+	margin-top: 25px;
+	overflow: hidden;
+	max-width: 660px;
+}
+#joinus>.left>ul>li{
+	float: left;
+	border: 1px solid #EAEAEA;
+	position: relative;
+}
+#joinus>.left>ul>li .content{
+	position: absolute;
+	bottom: 0;
+	text-align: center;
+	height: 36px;
+	line-height: 36px;
+	font-size: 15px;
+	width: 100%;
+}
+#joinus>.left>ul>li:nth-of-type(1){
+	width: 267px;
+	height: 336px;
+	margin-right: 12px;
+}
+#joinus>.left>ul>li:nth-of-type(2){
+	width: 376px;
+	height: 178px;
+	margin-bottom: 12px;
+}
+#joinus>.left>ul>li:nth-of-type(3){
+	width: 180px;
+	height: 142px;
+}
+#joinus>.left>ul>li:nth-of-type(4){
+	width: 180px;
+	height: 142px;
+	margin-left: 12px;
+}
+
+#joinus>.right{
+	float: right;
+
+}
+#joinus>.right>.title{
+	padding-left: 40px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 20px;
+	background: url(../images/rencai.png) no-repeat 0 center;
+}
+#joinus>.right>ul{
+	margin-top: 25px;
+	width: 370px;
+	height: 337px;
+	border: 1px solid #EBEBEB;
+	position: relative;
+}
+#joinus>.right>ul>.more{
+	display: block;
+	width: 142px;
+	height: 31px;
+	position: absolute;
+	left: -9px;
+	bottom: 15px;
+	text-align: center;
+	color: white;
+	line-height: 40px;
+	background: url(../images/more.png) no-repeat 0 0;
+}
+#joinus>.right>ul>li{
+	margin: 10px 0 15px 30px;
+	height: 50px;
+	float: left;
+	overflow: hidden;
+	width: 340px;
+	background: white;
+}
+#joinus>.right>ul>li>img{
+	width: 50px;
+	height: 50px;
+	float: left;
+}
+#joinus>.right>ul>li>a{
+	height: 50px;
+	padding-left:15px;
+	float: left;
+}
+#joinus>.right>ul>li:hover p{
+	color: #FFAD3A;
+}
+#joinus>.right>ul>li:hover span{
+	color: #FFAD3A;
+}
+#joinus>.right>ul>li>a>p{
+	height: 30px;
+	line-height: 30px;
+	color: black;
+	font-size: 14px;
+}
+#joinus>.right>ul>li>a>span{
+	line-height: 12px;
+	font-size: 12px;
+	color: #B0B0B0;
+}
+/*加入我们结束*/

@@ -1,0 +1,77 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+	font-size: 12px;
+	font-family: Microsoft YaHei;
+}
+
+
+/*内容区域开始*/
+#main{
+	width: 1100px;
+	margin: 0 auto;	
+	padding: 60px 0;
+}
+#main>.description>.title{
+	text-align: center;
+	font-size: 25px;
+	height: 25px;
+	line-height: 25px;
+	color: #646464;
+}
+#main>.description>.line{
+	width: 100px;
+	margin: 0 auto 30px;
+	padding-top: 25px;
+	border-bottom: 2px solid #B3A87A;
+}
+#main>.description>.content{
+	line-height: 30px;
+	text-align: left;
+	font-size: 14px;
+	color: black;
+	margin: 10px 0;
+}
+#main>.culture{
+	width: 1100px;
+	margin: 0 auto;
+	padding: 50px 0 0;
+}
+#main>.culture>.title{
+	text-align: center;
+	font-size: 22px;
+	color: #585858;
+}
+#main>.culture>ul{
+	display: flex;
+	justify-content: space-around;
+	width: 1100px;
+	margin: 0 auto;
+	padding: 40px 0 0;
+}
+#main>.culture>ul>li{
+	width: 250px;
+	height: 300px;
+}
+#main>.culture>ul>li>p:nth-of-type(1){
+	text-align: center;
+}
+#main>.culture>ul>li>p>img{
+	width: 100px;
+	height: 100px;
+}
+#main>.culture>ul>li>p:nth-of-type(2){
+	text-align: center;
+	padding: 20px 0;
+	font-size: 22px;
+}
+#main>.culture>ul>li>p:nth-of-type(3){
+	font-size: 13px;
+	line-height: 20px;
+	text-align: center;
+	color: #979797;
+}
+/*内容区域结束*/
+

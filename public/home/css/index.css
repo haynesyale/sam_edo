@@ -1,0 +1,115 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+	font-size: 12px;
+	font-family: Microsoft YaHei;
+}
+
+
+/*案例区域开始*/
+#case{
+	min-width: 1100px;
+	margin: 0 auto;
+	padding-top: 35px;
+}
+.module{
+	min-width: 1100px;
+	margin: 0 auto;
+}
+.module>.title{
+	width: 100%;
+	min-width: 1100px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	font-size: 40px;
+	font-weight: 700;
+	color: black;
+}
+.module>.title_cn{
+	width: 100%;
+	min-width: 1100px;
+	text-align: center;
+	height: 35px;
+	border-bottom: 1px solid #EFEFEF;
+}
+.module>.title_cn>span{
+	line-height: 35px;
+	text-align: center;
+	font-size: 20px;
+	font-weight: 500;
+	color: #606060;
+	border-bottom: 5px solid #FF6D05;
+}
+.module>.description{
+	font-size: 12px;
+	height: 14px;
+	line-height: 14px;
+	padding-top: 25px;
+	text-align: center;
+	color: #4C4C4E;
+}
+/*#case>.content{
+	width: 1100px;
+	margin: 60px auto;
+	height: 410px;
+}*/
+/*案例区域结束*/
+/*服务区域开始*/
+#service{
+	min-width: 1100px;
+	padding-bottom: 80px;
+}
+#service>.list{
+	width: 1100px;
+	padding-top: 60px;
+	margin: 0 auto;
+	display: flex;
+	Justify-content:space-around;
+}
+#service>.list>ul{
+	width: 224px;
+	padding-bottom: 20px;
+	border: 3px solid white;
+	cursor: pointer;
+}
+#service>.list>ul.cur{
+	border: 3px solid #FB8308;
+}
+#service>.list>ul>.img{
+	width: 224px;
+	height: 150px;
+	position: relative;
+}
+#service>.list>ul>.img>img{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+}
+#service>.list>ul>.title{
+	height: 30px;
+	line-height: 30px;
+	font-size: 22px;
+	font-weight: 600;
+	text-align: center;
+	color: black;
+}
+#service>.list>ul>.title_en{
+	color: #A0A8AA;
+	font-size: 12px;
+	height: 20px;
+	text-align: center;
+	line-height: 20px;
+	margin-bottom: 25px;
+}
+#service>.list>ul>li{
+	height: 25px;
+	line-height: 25px;
+	font-size: 14px;
+	color: #575757;
+	text-align: center;
+}
+/*服务区域结束*/
